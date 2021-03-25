@@ -72,4 +72,10 @@
       </plugins>
     </pluginManagement>
   </build>
+  <distributionManagement>
+        <repository>
+            <id>my-build</id>
+            <url>https://artrepo1.jfrog.io/ui/repos/tree/General/pproy</url>
+        </repository>
+  </distributionManagement>
 </project>
